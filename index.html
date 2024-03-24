@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablet</title>
+    <style>
+        * {
+            background-color: whitesmoke;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10%;
+        }
+        table {
+            border-radius: 10px;
+            overflow: hidden; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        }
+        table,tr,th,td {
+            background-color: white;
+            border-collapse: collapse;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .beeba {
+            border-radius: 6px;
+            padding: 5px;
+            color: white;
+            font-size: medium;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .action-icons img {
+            background-color: white;
+            width: 30px;
+            height: auto;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        a {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <table>
+            <thead>
+                <tr>
+                    <th>INVOICE</th>
+                    <th>NAME</th>
+                    <th>DATE</th>
+                    <th>PAYMENT</th>
+                    <th>AMOUNT</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="color: rgb(16, 16, 131);">NA</td>
+                    <td>Pratam</td>
+                    <td>01/04/2022</td>
+                    <td><div class="beeba" style="background-color: orange;">Not Completed</div></td>
+                    <td>22,000</td>
+                    <td class="action-icons"><a href="#"><img src="pen-removebg-preview.png" alt="Edit"></a><a href="#"><img src="bin-removebg-preview.png" alt="Delete"></a></td>
+                </tr>
+                <tr>
+                    <td style="color: rgb(16, 16, 131);">IN_1</td>
+                    <td>Doe</td>
+                    <td>01/04/2022</td>
+                    <td ><div class="beeba" style="background-color: green;">Completed</div></td>
+                    <td>23,000</td>
+                    <td class="action-icons"><a href="#"><img src="pen-removebg-preview.png" alt="Edit"></a><a href="#"><img src="bin-removebg-preview.png" alt="Delete"></a></td>
+                </tr>
+                <tr>
+                    <td style="color: rgb(16, 16, 131);">IN_2</td>
+                    <td>Cristian</td>
+                    <td>01/04/2022</td>
+                    <td><div class="beeba" style="background-color: skyblue;">Processing</div></td>
+                    <td>28,000</td>
+                    <td class="action-icons"><a href="#"><img src="pen-removebg-preview.png" alt="Edit"></a><a href="#"><img src="bin-removebg-preview.png" alt="Delete"></a></td>
+                </tr>
+                <tr>
+                    <td style="color: rgb(16, 16, 131);">IN_3</td>
+                    <td>Kiran</td>
+                    <td>01/04/2022</td>
+                    <td><div class="beeba" style="background-color: skyblue;">Processing</div></td>
+                    <td>25,000</td>
+                    <td class="action-icons"><a href="#"><img src="pen-removebg-preview.png" alt="Edit"></a><a href="#"><img src="bin-removebg-preview.png" alt="Delete"></a></td>
+                </tr>
+                <tr>
+                    <td style="color: rgb(16, 16, 131);">IN_4</td>
+                    <td>Kite</td>
+                    <td>01/04/2022</td>
+                    <td><div class="beeba" style="background-color: green;">Completed</div></td>
+                    <td>22,000</td>
+                    <td class="action-icons"><a href="#"><img src="pen-removebg-preview.png" alt="Edit"></a><a href="#"><img src="bin-removebg-preview.png" alt="Delete"></a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
